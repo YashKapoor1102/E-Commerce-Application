@@ -34,7 +34,7 @@ cd E-Commerce-Application
 ```
 **Step 3:** Compile the Java files:
 ```
-javac Inventory.java Product.java ShoppingCart.java StoreManager.java StoreView.java
+javac Inventory.java Product.java ProductStockController.java ShoppingCart.java StoreManager.java StoreView.java
 ```
 **Step 4:** Execute the file containing the main method, which is the "StoreView.java" file in this project.
 ```
