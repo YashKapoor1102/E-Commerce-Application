@@ -8,7 +8,7 @@ system that allows users to manage their shopping items dynamically.
 Key functionalities include adding and removing items, updating quantities, viewing a detailed
 order summary at checkout, and handling order confirmations. This system has a strong backend 
 that handles product stocks and user transactions well. It is thoroughly tested and includes 
-robust error handling to ensure the application is reliable and stable.
+robust error handling to ensure the application is user-friendly, reliable, and stable.
 
 ## Java Installation
 Most versions of Java will be able to run this program, but JDK 11 or higher is recommended for optimal performance. You can download it using the link below:
