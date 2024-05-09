@@ -11,8 +11,7 @@ that handles product stocks and user transactions well. It is thoroughly tested 
 robust error handling to ensure the application is reliable and stable.
 
 ## Installation
-Most versions of Java will be able to run this program, but JDK 11 or higher is recommended for  
-optimal performance.
+Most versions of Java will be able to run this program, but JDK 11 or higher is recommended for optimal performance.
 
 For those new to Java development or needing an IDE, Eclipse or IntelliJ IDEA   
 are recommended as well.
@@ -35,7 +34,7 @@ cd E-Commerce-Application
 ```
 **Step 3:** Compile the Java files:
 ```
-javac Inventory.java Product.java ProductStockController.java ShoppingCart.java StoreManager.java StoreView.java
+javac Inventory.java Product.java ShoppingCart.java StoreManager.java StoreView.java
 ```
 **Step 4:** Execute the file containing the main method, which is the "StoreView.java" file in this project.
 ```
