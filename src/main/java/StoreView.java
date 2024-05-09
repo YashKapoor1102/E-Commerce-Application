@@ -1140,7 +1140,7 @@ public class StoreView {
         // and the buttons to add/remove them
         JLabel potatoes = new JLabel();
         potatoes.setLayout(new FlowLayout());
-        potatoes.setIcon(new ImageIcon(getClass().getResource("potatoes.jpg")));
+        potatoes.setIcon(new ImageIcon(getClass().getResource("/potatoes.jpg")));
         potatoes.add(bp, FlowLayout.LEFT);
 
         panel1.add(p2);
@@ -1166,7 +1166,7 @@ public class StoreView {
         // and the buttons to add/remove it
         JLabel bread = new JLabel();
         bread.setLayout(new FlowLayout());
-        bread.setIcon(new ImageIcon(getClass().getResource("bread.jpg")));
+        bread.setIcon(new ImageIcon(getClass().getResource("/bread.jpg")));
         bread.add(bp2, FlowLayout.LEFT);
 
         panel1.add(b2);
@@ -1192,7 +1192,7 @@ public class StoreView {
         // and the buttons to add/remove it
         JLabel cereal = new JLabel();
         cereal.setLayout(new FlowLayout());
-        cereal.setIcon(new ImageIcon(getClass().getResource("cereal.jpg")));
+        cereal.setIcon(new ImageIcon(getClass().getResource("/cereal.jpg")));
         cereal.add(bp3, FlowLayout.LEFT);
 
         panel1.add(c2);
@@ -1218,7 +1218,7 @@ public class StoreView {
         // and the buttons to add/remove it
         JLabel oatmeal = new JLabel();
         oatmeal.setLayout(new FlowLayout());
-        oatmeal.setIcon(new ImageIcon(getClass().getResource("oatmeal.jpg")));
+        oatmeal.setIcon(new ImageIcon(getClass().getResource("/oatmeal.jpg")));
         oatmeal.add(bp4, FlowLayout.LEFT);
 
         panel1.add(o2);
@@ -1244,7 +1244,7 @@ public class StoreView {
         // and the buttons to add/remove them
         JLabel bagels = new JLabel();
         bagels.setLayout(new FlowLayout());
-        bagels.setIcon(new ImageIcon(getClass().getResource("bagels.jpg")));
+        bagels.setIcon(new ImageIcon(getClass().getResource("/bagels.jpg")));
         bagels.add(bp5, FlowLayout.LEFT);
 
         panel1.add(bg2);
@@ -1270,7 +1270,7 @@ public class StoreView {
         // and the buttons to add/remove them
         JLabel waffles = new JLabel();
         waffles.setLayout(new FlowLayout());
-        waffles.setIcon(new ImageIcon(getClass().getResource("waffles.jpg")));
+        waffles.setIcon(new ImageIcon(getClass().getResource("/waffles.jpg")));
         waffles.add(bp6, FlowLayout.LEFT);
 
         panel1.add(w2);
@@ -1296,7 +1296,7 @@ public class StoreView {
         // and the buttons to add/remove it
         JLabel mapleSyrup = new JLabel();
         mapleSyrup.setLayout(new FlowLayout());
-        mapleSyrup.setIcon(new ImageIcon(getClass().getResource("maplesyrup.jpg")));
+        mapleSyrup.setIcon(new ImageIcon(getClass().getResource("/maplesyrup.jpg")));
         mapleSyrup.add(bp7, FlowLayout.LEFT);
 
         panel1.add(ms2);
