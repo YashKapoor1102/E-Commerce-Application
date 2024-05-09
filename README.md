@@ -10,8 +10,10 @@ order summary at checkout, and handling order confirmations. This system has a s
 that handles product stocks and user transactions well. It is thoroughly tested and includes 
 robust error handling to ensure the application is reliable and stable.
 
-## Installation
-Most versions of Java will be able to run this program, but JDK 11 or higher is recommended for optimal performance.
+## Java Installation
+Most versions of Java will be able to run this program, but JDK 11 or higher is recommended for optimal performance. You can download it using the link below:
+
+https://www.oracle.com/java/technologies/downloads/#java11
 
 For those new to Java development or needing an IDE, Eclipse or IntelliJ IDEA   
 are recommended as well.
@@ -23,6 +25,29 @@ instructions provided in the links below to install them on various operating sy
 
 **IntelliJ Installation:** https://www.jetbrains.com/idea/download
 
+## Maven Installation
+**Step 1:** If you don't have Maven installed, then you can install it here:
+https://maven.apache.org/download.cgi
+
+**Step 2:** Extract the downloaded zip file to a directory on your system.
+
+**Step 3:** After it is successfully installed on your system, set up Maven in the system path.
+
+**Step 4:** Open the Start Search, type in "Environment Variables", and select "Edit the system environment variables".
+
+**Step 5:** In the System Properties window, click on the "Environment Variables" button.
+
+**Step 6:** In the Environment Variables window, under the "System variables" section, locate and
+select the "Path" variable, then click on "Edit".
+
+**Step 7:** Click "New" and add the path to the Maven "bin" directory.
+
+**Step 8:** Apply those settings by clicking "OK".
+
+**Step 9:** Ensure Maven is successfully installed by opening a new command prompt and typing
+`mvn -v`, which should not result in any errors if these steps are followed correctly.
+
+
 ## Usage
 **Step 1:** Clone the repository:
 ```
@@ -32,13 +57,14 @@ git clone https://github.com/YashKapoor1102/E-Commerce-Application.git
 ```
 cd E-Commerce-Application
 ```
-**Step 3:** Compile the Java files:
+**Step 3:** Use Maven to compile and package the application into a runnable jar file
+with Maven:
 ```
-javac Inventory.java Product.java ProductStockContainer.java ShoppingCart.java StoreManager.java StoreView.java
+mvn package
 ```
-**Step 4:** Execute the file containing the main method, which is the "StoreView.java" file in this project.
+**Step 4:** Run the JAR file:
 ```
-javac StoreView
+java -jar target/E-Commerce-Application-1.0-SNAPSHOT.jar
 ```
 
 ## Credits
